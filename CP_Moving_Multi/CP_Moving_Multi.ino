@@ -29,7 +29,7 @@ void setup() {
 }
 
 void loop() {
-  capsense[0] = CircuitPlayground.readCap(9);
+  capsense[0] = CircuitPlayground.readCap(9); // the second number is the pin that is active pin 9 in this line 
   capsense[1] = CircuitPlayground.readCap(2);
   capsense[2] = CircuitPlayground.readCap(0);
   capsense[3] = CircuitPlayground.readCap(1);
