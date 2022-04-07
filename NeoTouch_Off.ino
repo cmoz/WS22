@@ -1,3 +1,11 @@
+/*
+* This code is for an Uno board, with touch capacity enabled. 
+* NeoPixel strip on Pin 6
+* When you touch a leaf or the touch capacitive pin on A0 a strip of 10 NeoPixels will light up. Then turn off after all have been lit with green color. 
+* NeoPixels will stay off until it has been touched again.
+*/
+
+
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
 #include <avr/power.h> // Required for 16 MHz Adafruit Trinket
